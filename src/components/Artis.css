@@ -1,0 +1,19 @@
+body {
+  margin: 0 2em 0 2em;
+}
+
+h1, h4, h5, .sky {
+  color: #5d5d5d;
+}
+
+p {
+  color: #fff;
+}
+
+tr {
+  background-color: #fdfdfd;
+}
+
+.pic {
+  margin: 1em 0 1em 0;
+}
