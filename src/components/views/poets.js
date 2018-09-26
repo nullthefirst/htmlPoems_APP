@@ -13,6 +13,7 @@ export default class Poets extends Component {
           <Col xsHidden md={4}></Col>
           <Col md={4}>
             <Well>
+              <h1>List of Poets</h1>
             </Well>
           </Col>
           <Col xsHidden md={4}></Col>
