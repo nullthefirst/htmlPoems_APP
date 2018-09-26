@@ -3,6 +3,7 @@ import { Well } from 'react-bootstrap';
 import { Grid } from 'react-bootstrap';
 import { Col } from 'react-bootstrap';
 
+import Social from '../Social';
 import '../Artis.css';
 
 export default class Disclaimer extends Component {
@@ -18,6 +19,7 @@ export default class Disclaimer extends Component {
           </Col>
           <Col xsHidden md={4}></Col>
         </Grid>
+        <Social />
       </div>
     );
   }
