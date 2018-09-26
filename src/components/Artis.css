@@ -2,7 +2,7 @@ body {
   margin: 0 2em 0 2em;
 }
 
-h1, h4, h5, .sky {
+h1, h4, h5 {
   color: #5d5d5d;
 }
 
@@ -10,8 +10,8 @@ p {
   color: #fff;
 }
 
-tr {
-  background-color: #fdfdfd;
+a:link, a:visited {
+  color: #e5acb6;
 }
 
 .pic {
