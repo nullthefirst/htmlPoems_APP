@@ -50,8 +50,8 @@ export default class Content extends Component {
           </Col>
           <Col md={4}>
             <Well>
-              <Image src="#" alt="htmlPoems" title="htmlPoems Content" responsive />
-
+              <Image src="http://res.cloudinary.com/poetrique/image/upload/v1536065174/htmlpoems/paul_joe/pj_4.jpg" alt="htmlPoems" title="htmlPoems Content" responsive />
+              &copy; PeeJay
             </Well>
           </Col>
         </Grid>
