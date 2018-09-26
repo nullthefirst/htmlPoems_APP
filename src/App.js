@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import AppMenu from './components/AppMenu';
+import Social from './components/Social';
 import Footer from './components/Footer';
 
 class App extends Component {
@@ -7,6 +8,7 @@ class App extends Component {
     return (
       <div>
         <AppMenu />
+        <Social />
         <Footer />
       </div>
     );
