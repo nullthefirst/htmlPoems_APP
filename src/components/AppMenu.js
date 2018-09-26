@@ -43,7 +43,7 @@ export default class AppMenu extends Component {
                 */}
                 <NavDropdown eventKey={4} title="More" id="basic-nav-dropdown">
                   <MenuItem eventKey={4.1}>
-                    <Link to="/archive">Archive</Link>
+                    <a href="https://usheninte.github.io/htmlPoems/">Archive</a>
                   </MenuItem>
                   <MenuItem eventKey={4.2}>
                     <Link to="/poets">Poets</Link>
