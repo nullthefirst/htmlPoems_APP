@@ -12,38 +12,36 @@ export default class Content extends Component {
       <div>
         <Grid>
           <Col xsHidden md={4}></Col>
+          <Col xsHidden md={4}></Col>
           <Col md={4}>
-            <Well><Image src="" responsive /></Well>
-          </Col>
-          <Col md={4}>
-            <Well>Content</Well>
+            <Well><Image src="#" alt="htmlPoems" title="htmlPoems Content" responsive /></Well>
           </Col>
         </Grid>
         <Grid>
           <Col md={4}>
-            <Well>Content</Well>
+            <Well><Image src="#" alt="htmlPoems" title="htmlPoems Content" responsive /></Well>
           </Col>
           <Col md={4}>
-            <Well>Content</Well>
+            <Well><Image src="#" alt="htmlPoems" title="htmlPoems Content" responsive /></Well>
           </Col>
           <Col xsHidden md={4}></Col>
         </Grid>
         <Grid>
           <Col xsHidden md={4}></Col>
           <Col md={4}>
-            <Well>Content</Well>
+            <Well><Image src="#" alt="htmlPoems" title="htmlPoems Content" responsive /></Well>
           </Col>
           <Col md={4}>
-            <Well>Content</Well>
+            <Well><Image src="#" alt="htmlPoems" title="htmlPoems Content" responsive /></Well>
           </Col>
         </Grid>
         <Grid>
           <Col md={4}>
-            <Well>Content</Well>
+            <Well><Image src="#" alt="htmlPoems" title="htmlPoems Content" responsive /></Well>
           </Col>
           <Col md={4}></Col>
           <Col md={4}>
-            <Well>Content</Well>
+            <Well><Image src="#" alt="htmlPoems" title="htmlPoems Content" responsive /></Well>
           </Col>
         </Grid>
       </div>
