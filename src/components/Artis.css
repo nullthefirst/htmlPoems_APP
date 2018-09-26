@@ -2,12 +2,8 @@ body {
   margin: 0 2em 0 2em;
 }
 
-h1, h4, h5 {
+h1, h4, h5, p {
   color: #5d5d5d;
-}
-
-p {
-  color: #fff;
 }
 
 a:link, a:visited {
