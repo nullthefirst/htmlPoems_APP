@@ -13,8 +13,8 @@ export default class Content extends Component {
         <Grid>
           <Col md={4}>
             <Well>
-              <Image src="#" alt="htmlPoems" title="htmlPoems Content" responsive />
-              
+              <Image src="https://res.cloudinary.com/poetrique/image/upload/v1537473496/htmlpoems/mambo/z02.jpg" alt="htmlPoems" title="htmlPoems Content" responsive />
+              &copy; Mambo
             </Well>          
           </Col>
           <Col xsHidden md={4}></Col>
