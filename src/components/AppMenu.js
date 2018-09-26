@@ -10,7 +10,7 @@ import './Artis.css';
 
 import Content from './views/content';
 import Music from './views/music';
-import Upload from './views/upload';
+// import Upload from './views/upload';
 import Archive from './views/archive';
 import Poets from './views/poets';
 import Disclaimer from './views/disclaimer';
@@ -36,9 +36,11 @@ export default class AppMenu extends Component {
                 <NavItem eventKey={2}>
                   <Link to="/music">Music</Link>
                 </NavItem>
+                {/* 
                 <NavItem eventKey={3}>
                   <Link to="/upload">Upload</Link>
-                </NavItem>
+                </NavItem> 
+                */}
                 <NavDropdown eventKey={4} title="More" id="basic-nav-dropdown">
                   <MenuItem eventKey={4.1}>
                     <Link to="/archive">Archive</Link>
@@ -59,7 +61,7 @@ export default class AppMenu extends Component {
 
           <Route exact path="/" component={Content} />
           <Route path="/music" component={Music} />
-          <Route path="/upload" component={Upload} />
+          {/* <Route path="/upload" component={Upload} /> */}
           <Route path="/archive" component={Archive} />
           <Route path="/poets" component={Poets} />
           <Route path="/disclaimer" component={Disclaimer} />

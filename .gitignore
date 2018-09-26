@@ -2,8 +2,7 @@
 
 # yet to build
 
-src/components/views/contact.js
-src/components/views/upload.js
+src/components/vault
 
 # dependencies
 /node_modules
