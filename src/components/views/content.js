@@ -11,7 +11,12 @@ export default class Content extends Component {
     return(
       <div>
         <Grid>
-          <Col xsHidden md={4}></Col>
+          <Col md={4}>
+            <Well>
+              <Image src="#" alt="htmlPoems" title="htmlPoems Content" responsive />
+              
+            </Well>          
+          </Col>
           <Col xsHidden md={4}></Col>
           <Col md={4}>
             <Well>
@@ -44,16 +49,25 @@ export default class Content extends Component {
             </Well>
           </Col>
           <Col md={4}>
-            <Well><Image src="#" alt="htmlPoems" title="htmlPoems Content" responsive /></Well>
+            <Well>
+              <Image src="#" alt="htmlPoems" title="htmlPoems Content" responsive />
+
+            </Well>
           </Col>
         </Grid>
         <Grid>
           <Col md={4}>
-            <Well><Image src="#" alt="htmlPoems" title="htmlPoems Content" responsive /></Well>
+            <Well>
+              <Image src="#" alt="htmlPoems" title="htmlPoems Content" responsive />
+              
+            </Well>
           </Col>
           <Col md={4}></Col>
           <Col md={4}>
-            <Well><Image src="#" alt="htmlPoems" title="htmlPoems Content" responsive /></Well>
+            <Well>
+              <Image src="#" alt="htmlPoems" title="htmlPoems Content" responsive />
+              
+            </Well>
           </Col>
         </Grid>
       </div>
