@@ -19,13 +19,13 @@ export default class Music extends Component {
           <Col xsHidden md={4}></Col>          
         </Grid>
         <Grid>
-          <Col xsHidden md={4}></Col>
-          <Col xsHidden md={4}></Col>
           <Col md={4}>
             <Well>
               <iframe title="NackUs" width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/480556836&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
             </Well>
-          </Col>          
+          </Col>
+          <Col xsHidden md={4}></Col>
+          <Col xsHidden md={4}></Col>  
         </Grid>
       </div>
     );
