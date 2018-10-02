@@ -14,6 +14,8 @@ export default class Content extends Component {
           <Col xsHidden md={12}>
             <h4>the scattered layout was coded on purpose</h4>
           </Col>
+        </Grid>
+        <Grid>
           <Col md={4}>
             <Well>
               <Image src="https://res.cloudinary.com/poetrique/image/upload/v1537473496/htmlpoems/mambo/z02.jpg" alt="htmlPoems" title="htmlPoems Content" responsive />
