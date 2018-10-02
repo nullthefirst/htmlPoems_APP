@@ -13,7 +13,7 @@ export default class Content extends Component {
         <Grid>
           <Col xsHidden md={4}></Col>
           <Col xsHidden md={4}>
-            <h4>the scattered layout was coded on purpose</h4>
+            <h4>this layout was coded on purpose</h4>
           </Col>
           <Col xsHidden md={4}></Col>
         </Grid>
