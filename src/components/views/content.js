@@ -11,9 +11,11 @@ export default class Content extends Component {
     return(
       <div>
         <Grid>
+          <Col xsHidden md={12}></Col>
           <Col xsHidden md={12}>
             <h4>the scattered layout was coded on purpose</h4>
           </Col>
+          <Col xsHidden md={12}></Col>
         </Grid>
         <Grid>
           <Col md={4}>
