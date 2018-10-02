@@ -6,6 +6,10 @@ import { Col } from 'react-bootstrap';
 
 import '../Artis.css';
 
+const noticeStyle = {
+  textAlign: "center"
+}
+
 export default class Content extends Component {
   render() {
     return(
@@ -13,7 +17,7 @@ export default class Content extends Component {
         <Grid>
           <Col xsHidden md={4}></Col>
           <Col xsHidden md={4}>
-            <h4>this layout was coded on purpose</h4>
+            <h4 style={noticeStyle}>this layout was coded on purpose</h4>
           </Col>
           <Col xsHidden md={4}></Col>
         </Grid>
