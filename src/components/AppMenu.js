@@ -1,6 +1,16 @@
 import React, { Component } from 'react';
 import { Navbar, NavbarBrand, NavbarNav, NavbarToggler, Collapse, NavItem, NavLink, Dropdown, DropdownToggle, DropdownMenu, DropdownItem } from 'mdbreact';
-import { BrowserRouter as Router } from 'react-router-dom';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
+
+import './Artis.css';
+
+import Content from './views/content';
+import Music from './views/music';
+// import Upload from './views/upload';
+import Archive from './views/archive';
+import Poets from './views/poets';
+import Disclaimer from './views/disclaimer';
+import Contact from './views/contact';
 
 export default class AppMenu extends Component {
   constructor(props) {
@@ -20,43 +30,52 @@ export default class AppMenu extends Component {
   render() {
     return (
       <Router>
-        <Navbar color="indigo" dark expand="md" scrolling>
+        <Navbar color="pink lighten-1" dark expand="md" scrolling>
           <NavbarBrand href="/">
-            <strong>Navbar</strong>
+            <strong>htmlPoems by Poetrique</strong>
           </NavbarBrand>
           { !this.state.isWideEnough && <NavbarToggler onClick = { this.onClick } />}
           <Collapse isOpen = { this.state.collapse } navbar>
-            <NavbarNav left>
+            <NavbarNav right>
               <NavItem active>
-                <NavLink to="#">Home</NavLink>
+                <NavLink to="/">Home</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink to="#">Features</NavLink>
+                <NavLink to="/music">Music</NavLink>
               </NavItem>
-              <NavItem>
-                <NavLink to="#">Pricing</NavLink>
-              </NavItem>
+              {/* 
+              <NavItem eventKey={3}>
+                <Link to="/upload">Upload</Link>
+              </NavItem> 
+              */}
               <NavItem>
                 <Dropdown>
-                  <DropdownToggle nav caret>Dropdown</DropdownToggle>
+                  <DropdownToggle nav caret>More</DropdownToggle>
                   <DropdownMenu>
-                    <DropdownItem href="#">Action</DropdownItem>
-                    <DropdownItem href="#">Another Action</DropdownItem>
-                    <DropdownItem href="#">Something else here</DropdownItem>
-                    <DropdownItem href="#">Something else here</DropdownItem>
+                    <DropdownItem href="https://usheninte.github.io/htmlPoems/">Archive</DropdownItem>
+                    <DropdownItem>
+                      <NavLink to="/poets">Poets</NavLink>
+                    </DropdownItem>
                   </DropdownMenu>
                 </Dropdown>
               </NavItem>
-            </NavbarNav>
-            <NavbarNav right>
               <NavItem>
-                <form className="form-inline md-form mt-0">
-                  <input className="form-control mr-sm-2 mb-0 text-white" type="text" placeholder="Search" aria-label="Search"/>
-                </form>
+                <NavLink to="/disclaimer">Disclaimer</NavLink>
+              </NavItem>
+              <NavItem>
+                <NavLink to="/contact">Contact"/disclaimer">Disclaimer</NavLink>
               </NavItem>
             </NavbarNav>
           </Collapse>
         </Navbar>
+
+        <Route exact path="/" component={Content} />
+        <Route path="/music" component={Music} />
+        {/* <Route path="/upload" component={Upload} /> */}
+        <Route path="/archive" component={Archive} />
+        <Route path="/poets" component={Poets} />
+        <Route path="/disclaimer" component={Disclaimer} />
+        <Route path="/contact" component={Contact} />
       </Router>
     );
   }

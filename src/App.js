@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 
 import AppMenu from './components/AppMenu';
 
-import './components/App.css';
+import './components/Artis.css';
 
 class App extends Component {
   render() {
