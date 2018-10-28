@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Button, Card, CardBody, CardImage, CardTitle, CardText } from 'mdbreact';
 
 import '../Artis.css';
 
@@ -36,9 +37,23 @@ export default class Content extends Component {
         </Grid>
         <div class="container">
           <div class="row">
+            <div class="col-sm-4">
+              <Card>
+                <CardImage className="img-fluid" src="" />
+                <CardBody>
+                  <CardTitle>Card title</CardTitle>
+                </CardBody>
+              </Card>
+            </div>
             <div class="col-sm-4"></div>
-            <div class="col-sm-4"></div>
-            <div class="col-sm-4"></div>
+            <div class="col-sm-4">
+              <Card>
+                <CardImage className="img-fluid" src="" />
+                <CardBody>
+                  <CardTitle>Card title</CardTitle>
+                </CardBody>
+              </Card>
+            </div>
           </div>
         </div>
         <Grid>
