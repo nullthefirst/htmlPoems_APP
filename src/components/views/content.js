@@ -39,7 +39,7 @@ export default class Content extends Component {
           <div class="row">
             <div class="col-sm-4">
               <Card>
-                <CardImage className="img-fluid" src="" />
+                <CardImage className="img-fluid" src="" alt="htmlPoems" title="htmlPoems Content" />
                 <CardBody>
                   <CardTitle>Card title</CardTitle>
                 </CardBody>
@@ -48,7 +48,7 @@ export default class Content extends Component {
             <div class="col-sm-4"></div>
             <div class="col-sm-4">
               <Card>
-                <CardImage className="img-fluid" src="" />
+                <CardImage className="img-fluid" src="" alt="htmlPoems" title="htmlPoems Content" />
                 <CardBody>
                   <CardTitle>Card title</CardTitle>
                 </CardBody>
@@ -71,6 +71,27 @@ export default class Content extends Component {
           </Col>
           <Col xsHidden md={4}></Col>
         </Grid>
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-4">
+              <Card>
+                <CardImage className="img-fluid" src="" alt="htmlPoems" title="htmlPoems Content" />
+                <CardBody>
+                  <CardTitle>Card title</CardTitle>
+                </CardBody>
+              </Card>
+            </div>
+            <div class="col-sm-4"></div>
+            <div class="col-sm-4">
+              <Card>
+                <CardImage className="img-fluid" src="" alt="htmlPoems" title="htmlPoems Content" />
+                <CardBody>
+                  <CardTitle>Card title</CardTitle>
+                </CardBody>
+              </Card>
+            </div>
+          </div>
+        </div>
         <Grid>
           <Col xsHidden md={4}></Col>
           <Col md={4}>
@@ -86,6 +107,27 @@ export default class Content extends Component {
             </Well>
           </Col>
         </Grid>
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-4">
+              <Card>
+                <CardImage className="img-fluid" src="" alt="htmlPoems" title="htmlPoems Content" />
+                <CardBody>
+                  <CardTitle>Card title</CardTitle>
+                </CardBody>
+              </Card>
+            </div>
+            <div class="col-sm-4"></div>
+            <div class="col-sm-4">
+              <Card>
+                <CardImage className="img-fluid" src="" alt="htmlPoems" title="htmlPoems Content" />
+                <CardBody>
+                  <CardTitle>Card title</CardTitle>
+                </CardBody>
+              </Card>
+            </div>
+          </div>
+        </div>
         <Grid>
           <Col md={4}>
             <Well>
@@ -101,6 +143,27 @@ export default class Content extends Component {
             </Well>
           </Col>
         </Grid>
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-4">
+              <Card>
+                <CardImage className="img-fluid" src="" alt="htmlPoems" title="htmlPoems Content" />
+                <CardBody>
+                  <CardTitle>Card title</CardTitle>
+                </CardBody>
+              </Card>
+            </div>
+            <div class="col-sm-4"></div>
+            <div class="col-sm-4">
+              <Card>
+                <CardImage className="img-fluid" src="" alt="htmlPoems" title="htmlPoems Content" />
+                <CardBody>
+                  <CardTitle>Card title</CardTitle>
+                </CardBody>
+              </Card>
+            </div>
+          </div>
+        </div>
       </div>
     );
   }
