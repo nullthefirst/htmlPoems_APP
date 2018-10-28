@@ -19,8 +19,6 @@ export default class Content extends Component {
             </div>
             <div class="col-sm-4"></div>
           </div>
-        </div>
-        <div class="container">
           <div class="row">
             <div class="col-12 col-sm-4">
               <Card>
@@ -40,8 +38,6 @@ export default class Content extends Component {
               </Card>
             </div>
           </div>
-        </div>
-        <div class="container">
           <div class="row">
             <div class="col-12 col-sm-4">
               <Card>
@@ -61,8 +57,6 @@ export default class Content extends Component {
             </div>
             <div class="col-sm-4"></div>
           </div>
-        </div>
-        <div class="container">
           <div class="row">
             <div class="col-sm-4"></div>
             <div class="col-12 col-sm-4">
@@ -82,8 +76,6 @@ export default class Content extends Component {
               </Card>
             </div>
           </div>
-        </div>
-        <div class="container">
           <div class="row">
             <div class="col-12 col-sm-4">
               <Card>
