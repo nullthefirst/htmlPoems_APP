@@ -62,37 +62,22 @@ export default class Content extends Component {
             <div class="col-sm-4"></div>
           </div>
         </div>
-        <Grid>
-          <Col xsHidden md={4}></Col>
-          <Col md={4}>
-            <Well>
-              <Image src="http://res.cloudinary.com/poetrique/image/upload/v1536065963/htmlpoems/wonexo/wonexo_5.png" alt="htmlPoems" title="htmlPoems Content" responsive />
-              &copy; Wonexo
-            </Well>
-          </Col>
-          <Col md={4}>
-            <Well>
-              <Image src="http://res.cloudinary.com/poetrique/image/upload/v1536065174/htmlpoems/paul_joe/pj_4.jpg" alt="htmlPoems" title="htmlPoems Content" responsive />
-              &copy; PeeJay
-            </Well>
-          </Col>
-        </Grid>
         <div class="container">
           <div class="row">
-            <div class="col-sm-4">
-              <Card>
-                <CardImage className="img-fluid" src="" alt="htmlPoems" title="htmlPoems Content" />
-                <CardBody>
-                  <CardTitle>Card title</CardTitle>
-                </CardBody>
-              </Card>
-            </div>
             <div class="col-sm-4"></div>
             <div class="col-sm-4">
               <Card>
-                <CardImage className="img-fluid" src="" alt="htmlPoems" title="htmlPoems Content" />
+                <CardImage className="img-fluid" src="http://res.cloudinary.com/poetrique/image/upload/v1536065963/htmlpoems/wonexo/wonexo_5.png" alt="htmlPoems" title="htmlPoems Content" />
                 <CardBody>
-                  <CardTitle>Card title</CardTitle>
+                  <CardTitle>&copy; Wonexo</CardTitle>
+                </CardBody>
+              </Card>
+            </div>
+            <div class="col-sm-4">
+              <Card>
+                <CardImage className="img-fluid" src="http://res.cloudinary.com/poetrique/image/upload/v1536065174/htmlpoems/paul_joe/pj_4.jpg" alt="htmlPoems" title="htmlPoems Content" />
+                <CardBody>
+                  <CardTitle>&copy; PeeJay</CardTitle>
                 </CardBody>
               </Card>
             </div>
