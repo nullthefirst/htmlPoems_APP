@@ -83,37 +83,22 @@ export default class Content extends Component {
             </div>
           </div>
         </div>
-        <Grid>
-          <Col md={4}>
-            <Well>
-              <Image src="https://res.cloudinary.com/poetrique/image/upload/v1537473496/htmlpoems/mambo/z02.jpg" alt="htmlPoems" title="htmlPoems Content" responsive />
-              &copy; Mambo
-            </Well>
-          </Col>
-          <Col md={4}></Col>
-          <Col md={4}>
-            <Well>
-              <Image src="https://res.cloudinary.com/poetrique/image/upload/v1537473496/htmlpoems/mambo/z04.jpg" alt="htmlPoems" title="htmlPoems Content" responsive />
-              &copy; Mambo
-            </Well>
-          </Col>
-        </Grid>
         <div class="container">
           <div class="row">
             <div class="col-sm-4">
               <Card>
-                <CardImage className="img-fluid" src="" alt="htmlPoems" title="htmlPoems Content" />
+                <CardImage className="img-fluid" src="https://res.cloudinary.com/poetrique/image/upload/v1537473496/htmlpoems/mambo/z02.jpg" alt="htmlPoems" title="htmlPoems Content" />
                 <CardBody>
-                  <CardTitle>Card title</CardTitle>
+                  <CardTitle>&copy; Mambo</CardTitle>
                 </CardBody>
               </Card>
             </div>
             <div class="col-sm-4"></div>
             <div class="col-sm-4">
               <Card>
-                <CardImage className="img-fluid" src="" alt="htmlPoems" title="htmlPoems Content" />
+                <CardImage className="img-fluid" src="https://res.cloudinary.com/poetrique/image/upload/v1537473496/htmlpoems/mambo/z04.jpg" alt="htmlPoems" title="htmlPoems Content" />
                 <CardBody>
-                  <CardTitle>Card title</CardTitle>
+                  <CardTitle>&copy; Mambo</CardTitle>
                 </CardBody>
               </Card>
             </div>
