@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Card, CardBody, CardImage, CardTitle } from 'mdbreact';
+import { Card } from 'mdbreact';
 
 import '../Artis.css';
 
