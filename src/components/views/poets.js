@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { ListGroup, ListGroupItem } from 'mdbreact';
+import { Card, CardBody, CardImage, CardTitle } from 'mdbreact';
 
 import '../Artis.css';
 

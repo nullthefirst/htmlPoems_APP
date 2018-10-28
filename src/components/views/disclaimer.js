@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
-import { Well } from 'react-bootstrap';
-import { Grid } from 'react-bootstrap';
-import { Col } from 'react-bootstrap';
+import { Card, CardBody, CardImage, CardTitle } from 'mdbreact';
 
 import '../Artis.css';
 
