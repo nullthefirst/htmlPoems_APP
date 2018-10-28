@@ -10,17 +10,12 @@ export default class Content extends Component {
   render() {
     return(
       <div>
-        <Grid>
-          <Col xsHidden md={4}></Col>
-          <Col xsHidden md={4}>
-            <h4 style={noticeStyle}>this layout was coded on purpose</h4>
-          </Col>
-          <Col xsHidden md={4}></Col>
-        </Grid>
         <div class="container">
           <div class="row">
             <div class="col-sm-4"></div>
-            <div class="col-sm-4"></div>
+            <div class="col-sm-4">
+              <h4 style={noticeStyle}>this layout was coded on purpose</h4>
+            </div>
             <div class="col-sm-4"></div>
           </div>
         </div>
@@ -39,6 +34,13 @@ export default class Content extends Component {
             </Well>
           </Col>
         </Grid>
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-4"></div>
+            <div class="col-sm-4"></div>
+            <div class="col-sm-4"></div>
+          </div>
+        </div>
         <Grid>
           <Col md={4}>
             <Well>
